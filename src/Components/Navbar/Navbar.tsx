@@ -16,7 +16,7 @@ const Navbar = ({
     };
     useEffect(() => {
         updateResults(searchTerm);
-    }, [searchTerm]);
+    }, [searchTerm,updateResults]);
     return (
         <div>
             <nav className={styles.navbar}>
